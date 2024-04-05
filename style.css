@@ -1,3 +1,92 @@
-table,tr,td,th{
-    border: 1px solid black;
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+    font-family: "Karla", sans-serif;
+    background-color: rgb(176, 179, 180);
+}
+a{
+    color: rgba(255, 255, 255, 0.814);
+}
+.yuti1{
+    box-shadow: black;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background-color: white;
+    width: 800px;
+    margin-top: 90px;
+    margin-left: 750px;
+}
+.dablitadivebi{
+     display: flex;
+}
+.div1{
+    margin-left: 750px;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(33, 83, 65);
+    display: flex;
+    flex-direction: column;
+}
+.div2{
+    background-color: rgb(50, 144, 114);
+    width: 400px;
+}
+.per{
+    display: flex;
+    align-items: center;
+    color: rgb(217, 206, 206);
+    gap: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 750;
+    width: 300px;
+    height: 65px;
+    background-color: rgb(111, 162, 60);
+    margin-top: 50px;
+    margin-left: 30px;
+    text-decoration-line: none;
+    border-radius: 8px;
+}
+#h1{
+    font-size: 45px;
+    margin-left: 23px;
+    color: rgb(47, 139, 139);
+}
+#h2{
+    font-size: 20px;
+    margin-left: 23px;
+    color: rgb(74, 117, 29);
+}
+#h3{
+    font-weight: 20;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 23px;
+}
+#p1{
+    color: gray;
+    margin-left: 20px;
+}
+#h1-1{
+    color: white;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+#h3-1{
+    margin-left: 20px;
+    color: rgb(193, 189, 189);
+}
+#h2-1{
+    margin-left: 20px;
+    color: white;
+}
+#p2{
+    color: rgba(255, 255, 255, 0.673);
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
